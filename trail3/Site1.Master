@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="trail3.Site1" %>
+
+<!DOCTYPE html>
+
+
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         <link rel="stylesheet" href="header.css">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+        
+
+   
+        <section>
+            <!-- MAIN CONTAINER -->
+            <div id="container">
+                <!-- SHOP NAME -->
+
+                <div id="shopName"> <b>Find Your</b>Fit</div>
+                <!-- COLLCETIONS ON WEBSITE -->
+                <div id="collection">
+                    <div id="collection a "><a href="men.html"> MEN </a></div>
+                    <div id="clothing"><a href="women.html"> WOMEN </a></div>
+                </div>
+                <!-- SEARCH SECTION -->
+                <div id="search">
+                    <i class="fas fa-search search"></i>
+                    <input type="text" id="input" name="searchBox" placeholder="Search your fit" />
+                </div>
+                <!-- USER SECTION (CART AND USER ICON) -->
+                <div id="user">
+                     <a href="cart.html">
+
+
+                        <img src="images/59bedb1e7a216d0b052f128b (1).png" style="height: 50px; width: 60px"  />
+                    </a>
+                    <a href="login.aspx">
+                        <img src="images/585e4bf3cb11b227491c339a.png" style="height: 50px; width: 60px"/>
+                    </a>
+                    
+                </div>
+            </div>
+
+        </section>
+    
+                <style>
+        body {
+            margin: 0;
+        }
+
+        #containerSlider {
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+            #containerSlider img {
+                width: 100%;
+                height: 140%;
+                text-align: center;
+                align-content: center;
+            }
+    </style>
+
+
+<body>
+    <link rel="stylesheet" href="header.css">
+    <section>
+        <div id="containerSlider">
+            
+            </div>
+        
+    </section>
+
+
+
+
+    </body>
+</body>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

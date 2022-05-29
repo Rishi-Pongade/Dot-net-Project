@@ -1,0 +1,30 @@
+﻿body {
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Homepage*/
+#input {
+    width: 35em;
+    height: 3em;
+    padding: 2px 50px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 5px;
+}
+
+    #input::placeholder {
+        font-weight: bold;
+    }
+
+    #input:focus {
+        outline: none;
+    }
+
+#user a {
+    color: rgb(29, 29, 29)
+}
+}
